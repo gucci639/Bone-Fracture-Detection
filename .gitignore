@@ -1,0 +1,6 @@
+venv/
+.env
+*.pt
+runs/
+data/
+*.zip
