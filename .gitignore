@@ -4,3 +4,4 @@ venv/
 runs/
 data/
 *.zip
+__pycache__/
