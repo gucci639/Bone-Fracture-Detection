@@ -1,10 +1,11 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /kaggle/input/datasets/mohammedmohsen0404/bone-fracture-dataset-good-data/data.yaml
-epochs: 10
+data: /root/.cache/kagglehub/datasets/orvile/human-bone-fractures-image-dataset-hbfmid/versions/1/Human
+  Bone Fractures Multi-modal Image Dataset (HBFMID)/Bone Fractures Detection/data.yaml
+epochs: 100
 time: null
-patience: 100
+patience: 5
 batch: 16
 imgsz: 640
 save: true
@@ -112,4 +113,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: /kaggle/working/runs/detect/train
+save_dir: /content/runs/detect/train

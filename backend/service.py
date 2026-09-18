@@ -11,13 +11,13 @@ MODEL_CONFIGS = {
         "name": "YOLOv8-Nano",
         "path": "weights/model_fast.pt",
         "description": "Light model for fast inference",
-        "map_score": 0.98
+        "map_score": 0.87
     },
     "accurate": {
-            "name": "YOLOv8-Medium",
+            "name": "YOLOv8-Small",
             "path": "weights/model_precise.pt",
             "description": "Heavy model for precise inference",
-            "map_score": 0.995
+            "map_score": 0.92
         }
 }
 
