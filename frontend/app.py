@@ -17,13 +17,13 @@ model_options = {
     "YOLOv8n (Fast)": {
         "id": 'fast',
         'desc': 'Light model for fast screening',
-        'mAP': '0.98',
+        'mAP': '0.87',
         'avg_latency': '~6 ms'
     },
     "YOLOv8m (Accurate)": {
             "id": 'accurate',
             'desc': 'Heavy model for precise screening',
-            'mAP': '0.995',
+            'mAP': '0.92',
             'avg_latency': '~14 ms'
         },
 }
