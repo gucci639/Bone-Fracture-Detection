@@ -19,7 +19,7 @@ Target metric: mAP@0.5 >= 0.5.
 | Model | Architecture | Checkpoint | Size | Params | mAP@0.5 | CPU Latency | Use Case |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Fast** | YOLOv8n | `weights/model_fast.pt` | ~6.2 MB | 3.2M | **0.87** | ~35 ms | Real-time |
-| **Accurate** | YOLOv8m | `weights/model_accurate.pt` | ~52.0 MB | 25.9M | **0.92** | ~260 ms | Clinical review |
+| **Accurate** | YOLOv8s | `weights/model_accurate.pt` | ~52.0 MB | 25.9M | **0.92** | ~260 ms | Clinical review |
 
 ### Training Performance & Visualizations
 
