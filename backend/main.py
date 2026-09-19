@@ -3,6 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 from backend.schemas import PredictResponse, ModelInfo
 from backend.service import detector_service
+from weights.get_weights import get
+
+get()
 
 app = FastAPI(
     title="Bone Fracture Detection API",
